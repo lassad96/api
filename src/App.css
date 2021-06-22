@@ -1,0 +1,57 @@
+.App {
+  
+  background-color:honeydew;
+  text-align: center;
+}
+
+body {
+  background-color:honeydew;
+}
+.cont {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+} 
+.card {
+  width: 60%;
+  height: 350px;
+  background-color: #63d47c;
+  color: rgba(16, 16, 19, 0.863);
+  margin-bottom: 5%;
+}
+
+.card-text {
+  font-size: 15px;
+  font-style: timesNew Roman;
+  padding-bottom: 10px;
+}
+ul {
+  list-style-type: none;
+  padding: 20px;
+}
+li {
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+li span {
+  font-weight: 300;
+  padding-left: 5px;
+}
+
+.bg-custom p {
+  padding: 10px;
+  line-height: 1;
+}
+
+.bg-effects {
+  background-color: #1b1464;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
